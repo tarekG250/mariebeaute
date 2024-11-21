@@ -1,0 +1,120 @@
+/* Reset de base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: aliceblue;
+}
+
+/* En-tête */
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #5d3e6e;
+  margin-bottom: 20px;
+}
+
+/* Formulaire */
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #5d3e6e;
+  margin-bottom: 20px;
+}
+
+/* Détails actuels dans le formulaire */
+.details-section {
+  background-color: #d6e4f0; /* Changement de la couleur de fond en bleu clair */
+  border: 1px solid #a1c4e9; /* Bordure en bleu plus foncé */
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère pour faire ressortir le bloc */
+}
+
+.details-item {
+  margin-bottom: 15px;
+}
+
+.details-item label {
+  font-weight: bold;
+  color: #1e3a8a; /* Couleur plus sombre pour les labels */
+}
+
+.details-item span {
+  display: block;
+  font-size: 1.1rem;
+  color: #1e3a8a; /* Couleur sombre pour le texte */
+  padding: 5px;
+  background-color: #ffffff; /* Fond blanc pour les valeurs des détails */
+  border: 1px solid #a1c4e9; /* Bordure bleu clair pour les valeurs */
+  border-radius: 5px;
+}
+
+/* Sélecteurs et bouton */
+label {
+  font-size: 1rem;
+  color: #555;
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  background-color: #fafafa;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  font-size: 1.2rem;
+  background-color: #5d3e6e;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #4b2a57;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  form {
+    padding: 20px;
+  }
+  button {
+    font-size: 1rem;
+  }
+}

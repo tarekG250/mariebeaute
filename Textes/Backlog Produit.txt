@@ -1,0 +1,41 @@
+BACKLOG PRODUCT 2.0 -----------------------------------------------------------------------------------------------------------------------------------
+
+1. En tant que client, je veux pouvoir réserver un rendez-vous en ligne afin de planifier mes visites au salon.
+C1 : S'assurer de valider que l'email contient un  @ 
+C2 : S'assurer que touts les horaires de disponibilités soit affichés dans un ordre chronologique.
+
+2. En tant que client, je veux pouvoir modifier un rendez-vous en ligne afin de changer de pouvoir le changer en conséquence.
+C1 : S'assurer qu'un bouton nommé "Modifier" est affiché à côté de chaque rendez-vous, menant à une page de modification.
+C2 : S'assurer qu'une page de modification est accessible pour chaque rendez-vous, permettant de changer la date, l'heure ou le choix du spécialiste.
+
+3. En tant que client, je veux pouvoir annuler un rendez-vous en ligne afin de libérer la plage horaire.
+C1 : S'assurer que le client reçoit une notification de confirmation de l'annulation après avoir annulé le rendez-vous.
+C2 : S'assurer qu'une confirmation de l'annulation soit demandée avant de finaliser l'action.
+
+4. En tant que client, je veux recevoir une notification de confirmation afin d'avoir une preuve que mon rendez-vous est bien enregistré.
+C1 : S'assurer qu'une notification de confirmation est générée et envoyée à chaque fois qu'un rendez-vous est enregistré.
+C2 : S'assurer que le message de notification contient le soin, la date, et l'heure du rendez-vous.
+
+5. En tant que client, je veux pouvoir utiliser l'application sur différents navigateurs afin de pouvoir utiliser différents types d'appareils.
+C1 : S'assurer que tous les éléments de l'interface (boutons, menus, formulaires) soient bien alignés sur des écrans de différentes tailles (smartphones, tablettes et ordinateurs).
+C2 : S'assurer que tous les éléments de l'interface (boutons, menus, formulaires) changent en fonction  des différents types d'écran (smartphones, tablettes et ordinateurs).
+
+6. En tant qu'employé, je veux voir la liste des rendez-vous du jour afin de me préparer aux clients à venir.
+C1 : S'assurer que la liste des rendez-vous est triée par ordre chronologique, du premier au dernier rendez-vous de la journée.
+C2 : S'assurer que chaque rendez-vous affiche les informations essentielles : le nom du client, le type de soin, la date et l'heure du rendez-vous.
+
+7. En tant qu'employé, je veux pouvoir bloquer des plages horaires afin de refléter mes absences ou les périodes de fermeture.
+C1 : S'assurer que les créneaux horaires bloqués ne sont pas accessibles pour les réservations et que les clients ne peuvent pas sélectionner ces créneaux lors de la prise de rendez-vous.
+C2 : S'assurer qu'il est possible de modifier ou de supprimer les plages horaires bloquées par l'employé à tout moment.
+
+8. En tant que gestionnaire, je veux pouvoir ajouter ou supprimer des services de réservation afin de garder les offres à jour.	TODO
+C1 : S'assurer que les modifications sont visibles sur le site dans les 5 minutes suivant la mise à jour.
+C2 : S'assurer qu'une notification est envoyée aux employés pour les informer des changements.
+
+9. En tant que gestionnaire, je veux pouvoir consulter les statistiques de réservation afin de suivre la fréquentation et les performances du salon.
+C1 : S'assurer que les statistiques incluent le nombre totals de rendez-vous pris et annulés lors d'une journée.
+C2 : S'assurer que les statistiques incluent le nombre total de rendez-vous pris et annulés lors d'un mois.
+
+10. En tant que client, je veux pouvoir laisser un commentaire après mon rendez-vous afin de partager mon expérience et d'aider le salon à améliorer ses services.
+C1 : S'assurer qu'un champ de commentaire est disponible en tout temps sur le site web.
+C2 : S'assurer que le client peut évaluer son expérience sur une échelle de 1 à 5 étoiles.

@@ -1,0 +1,118 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #40e0d0; /* Bleu turquoise */
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #40e0d0;
+}
+
+/* Conteneur du formulaire avec fond blanc */
+.form-wrapper {
+  background-color: white; /* Fond blanc */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre */
+  max-width: 600px; /* Largeur maximale */
+  width: 90%; /* Largeur adaptable */
+  text-align: center;
+}
+
+.comment-page h1 {
+  margin-left: 15px;
+  margin-bottom: 50px;
+  padding-top: 0;
+  transform: translateY(-20px);
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  flex-shrink: 0;
+  width: 43px;
+  margin-right: 10px;
+}
+
+.form-group:nth-child(2) label {
+  margin-right: 20px;
+}
+
+.comment-form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.star-rating {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.star-rating input {
+  display: none;
+}
+
+.star-rating label {
+  font-size: 2rem;
+  color: #ddd;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.star-rating input:checked ~ label,
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+  color: #ffc107;
+}
+
+.comment-form textarea {
+  width: 100%;
+  max-width: 600px;
+  height: 150px;
+  resize: none;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.comment-form .form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.comment-form .cta-button {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.comment-form .cta-button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,141 @@
+/* Reset de base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corps de la page */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: aliceblue;
+}
+
+/* En-tête */
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #5d3e6e;
+  margin-bottom: 40px;
+}
+
+/* Formulaire */
+form {
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+  font-size: 1.4rem;
+  color: #5d3e6e;
+  margin-bottom: 20px;
+}
+
+/* Section de sélection de la date */
+label {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fafafa;
+}
+
+input[type="date"]:focus {
+  outline: none;
+  border-color: #5d3e6e;
+}
+
+/* Tableau de disponibilité des horaires */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #5d3e6e;
+  color: white;
+  font-weight: bold;
+}
+
+td {
+  background-color: #f9f9f9;
+}
+
+td span {
+  color: #e74c3c; /* Rouge pour les créneaux indisponibles */
+}
+
+td label {
+  color: #2ecc71; /* Vert pour les créneaux disponibles */
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+/* Message d'erreur */
+p[style="color: red;"] {
+  color: #e74c3c;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Bouton */
+button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  font-size: 1.2rem;
+  background-color: #5d3e6e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #4b2a57;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  body {
+    padding: 15px;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+  form {
+    padding: 20px;
+  }
+  button {
+    font-size: 1rem;
+  }
+}

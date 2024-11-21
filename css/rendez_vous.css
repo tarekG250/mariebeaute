@@ -1,0 +1,134 @@
+/* Global Styles */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: aliceblue;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Table Styles */
+table {
+  width: 80%;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #5f6368;
+  color: white;
+  font-size: 1rem;
+}
+
+td {
+  background-color: #fafafa;
+}
+
+td a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+td a:hover {
+  text-decoration: underline;
+}
+
+/* "No Reservations" message */
+p {
+  font-size: 1.2rem;
+  color: #777;
+}
+
+/* Logout Link */
+a {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 1rem;
+  margin-top: 20px;
+  display: block;
+  text-align: center;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  table {
+    width: 90%;
+  }
+
+  th,
+  td {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Styling for both buttons (Annuler and Modifier) */
+/* Styling for both buttons (Annuler and Modifier) */
+form {
+  display: flex;
+  flex-direction: column; /* Align buttons vertically */
+  align-items: flex-start; /* Align buttons to the left */
+  margin-top: 10px; /* Espace au-dessus du formulaire */
+}
+
+/* Common Button Styles */
+form button[type="submit"] {
+  padding: 10px 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-size: 1rem;
+  width: 150px; /* Largeur fixe pour que les boutons soient de la même taille */
+  text-align: center;
+  margin-bottom: 15px; /* Espace entre les boutons */
+}
+
+/* "Modifier" Button */
+form button[type="submit"].modifier {
+  background-color: #28a745; /* Vert pour Modifier */
+}
+
+form button[type="submit"].modifier:hover {
+  background-color: #218838; /* Vert plus foncé au survol */
+  transform: scale(1.05);
+}
+
+/* "Annuler" Button */
+form button[type="submit"].annuler {
+  background-color: #dc3545; /* Rouge pour Annuler */
+}
+
+form button[type="submit"].annuler:hover {
+  background-color: #c82333; /* Rouge plus foncé au survol */
+  transform: scale(1.05);
+}

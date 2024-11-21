@@ -1,0 +1,65 @@
+LÉGENDE DES TÂCHES À FAIRE :
+C : CHARLES-ÉTIENNE
+H : CHAZYL
+T : TAREK
+R : RAYAN
+
+OBJECTIF DE SPRINT 1 ----------------------------------------------------------------------------------------------
+RÔLE : R (DEV 2)
+1. En tant que client, je veux pouvoir réserver un rendez-vous en ligne afin de planifier mes visites au salon.
+Créer le formulaire de prise de rendez-vous
+Implémenter la logique lié à la validation d'email
+Tester le fonctionnement de prise de rendez-vous
+
+RÔLE : R (DEV 2)
+2. En tant que client, je veux pouvoir modifier un rendez-vous en ligne afin de changer de pouvoir le changer en conséquence.
+"Créer un bouton ""Modifier"" à coté de chaque rendez-vous"
+Créer une page de modification de rendez-vous
+Inplémenter la logique liée à la page de modification de rendez-vous
+Tester le fonctionnement d'une modification d'un rendez-vous
+
+RÔLE : T (DEV 1)
+3. En tant que client, je veux pouvoir annuler un rendez-vous en ligne afin de libérer la plage horaire.
+"Créer un bouton ""Annuler"" à coté de chaque rendez-vous"
+"Inplémenter la logique liée au bouton ""Annuler"""
+
+RÔLE : H (DEV 2)
+4. En tant que client, je veux recevoir une notification de confirmation afin d'avoir une preuve que mon rendez-vous est bien enregistré.
+Créer un message de confirmation contenant le soin, la date et l'heure d'un rendez-vous réservé
+Inplémenter la logique liée au message de confirmation d'un rendez-vous
+
+RÔLE : C (DEV 1)
+5. En tant que client, je veux pouvoir utiliser l'application sur différents navigateurs afin de pouvoir utiliser différents types d'appareils.
+Développer une interface responsive qui s'adapte aux ordinateurs
+Développer une interface responsive qui s'adapte aux téléphones intelligents
+Tester l'affichage du site sur différents écrans
+Fonctionnalités supplémentaires du projet
+
+OBJECTIF DE SPRINT 2 ----------------------------------------------------------------------------------------------
+RÔLE : H (DEV 2)
+6. En tant qu'employé, je veux voir la liste des rendez-vous du jour afin de me préparer aux clients à venir.
+Créer un espace utilisateur pour les employés
+Créer la page dédiée aux employés affichant la liste de rendez-vous
+Faire un test pour s'assurer que chaque rendez-vous affiche les informations essentielles : nom du client, type de soin, date et heure.
+
+RÔLE : T (DEV 1)
+7. En tant qu'employé, je veux pouvoir bloquer des plages horaires afin de refléter mes absences ou les périodes de fermeture.
+Création d'une zone d'employé afin de bloquer des plages horaires
+Implémentation de la zone d'employé dans le but de bloquer / modifier les plages horaires
+
+RÔLE : H (DEV 2)
+8. En tant que gestionnaire, je veux pouvoir ajouter ou supprimer des services de réservation afin de garder les offres à jour.
+Création d'un bouton pour ajouter des services de réservation
+Création d'un bouton pour supprimer des services de réservation
+Implémentation du bouton d'aujouter des services
+Implémentation du bouton de suppression des services
+
+RÔLE : C (DEV 1)
+9. En tant que gestionnaire, je veux pouvoir consulter les statistiques de réservation afin de suivre la fréquentation et les performances du salon.
+Création d'une zone de statiques dans la page web
+Création d'une zone de fréquentation sur les perfomances
+
+RÔLE : C (DEV 1)
+10. En tant que client, je veux pouvoir laisser un commentaire après mon rendez-vous afin de partager mon expérience et d'aider le salon à améliorer ses services.
+Créer un champ de commentaire accessible en tout temps sur le site web.
+Création d'un champ pour noter sur 5 étoiles le service

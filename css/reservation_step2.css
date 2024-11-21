@@ -1,0 +1,165 @@
+/* Reset de base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corps de la page */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #e0f7fa; /* Bleu pastel très doux */
+  color: #333;
+  line-height: 1.6;
+  padding: 30px;
+}
+
+/* En-tête */
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #00796b; /* Vert foncé */
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+/* Formulaire */
+form {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #ffffff; /* Blanc cassé */
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Titres des sections */
+h3 {
+  font-size: 1.8rem;
+  color: #00796b; /* Vert foncé */
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Étiquettes de formulaire */
+label {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #555;
+  margin-bottom: 10px;
+  display: block;
+}
+
+/* Champs de texte et sélecteurs */
+input[type="date"] {
+  width: 100%;
+  padding: 16px; /* Augmenté la taille du champ */
+  font-size: 1.2rem; /* Augmenté la taille de la police */
+  margin-bottom: 20px;
+  border: 2px solid #00796b; /* Vert foncé */
+  border-radius: 6px;
+  background-color: #f1f8f6; /* Gris clair */
+  transition: border-color 0.3s ease;
+}
+
+/* Focus sur le champ date */
+input[type="date"]:focus {
+  border-color: #004d40; /* Vert foncé sur focus */
+  outline: none;
+}
+
+/* Table */
+table {
+  width: 80%; /* Largeur de la table modifiée pour être plus compacte */
+  margin: 0 auto; /* Centré horizontalement */
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: center; /* Centré le texte des cellules */
+}
+
+th {
+  background-color: #00796b; /* Vert foncé */
+  color: #ffffff;
+}
+
+td {
+  background-color: #f1f8f6; /* Gris clair */
+}
+
+td span {
+  color: red;
+  font-weight: bold;
+}
+
+td label {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #00796b;
+}
+
+/* Bouton */
+button {
+  width: 100%;
+  padding: 15px;
+  font-size: 1.2rem;
+  color: white;
+  background-color: #00796b; /* Vert foncé */
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #004d40; /* Vert très foncé au survol */
+}
+
+/* Animation des éléments */
+input[type="date"],
+button {
+  animation: fadeIn 1s ease-out;
+}
+
+/* Animation de fade-in */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  body {
+    padding: 15px;
+  }
+
+  form {
+    padding: 30px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.6rem;
+  }
+
+  input[type="date"] {
+    font-size: 1.1rem; /* Taille ajustée pour mobile */
+  }
+
+  button {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,70 @@
+/* Général */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #35dbeb;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+main {
+  width: 80%;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* Titre */
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+/* Table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #35d9e4;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+td {
+  background-color: #f4f4f4;
+}
+
+tr:nth-child(even) td {
+  background-color: #eaeaea;
+}
+
+/* Effet au survol */
+tr:hover td {
+  background-color: #d3e9f7;
+  cursor: pointer;
+}
+
+/* Texte par défaut si aucun commentaire */
+p {
+  text-align: center;
+  font-size: 1rem;
+  color: #888;
+}
